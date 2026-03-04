@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: errors
+  labels:
+    name: erros-label
+spec:
+  containers:
+    - name: nginx
+      image: nginxxxxx
